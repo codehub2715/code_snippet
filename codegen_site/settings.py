@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['code-snippet-1-ewvd.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://code-snippet-1-ewvd.onrender.com'
+]
+
 
 # Application definition
 
